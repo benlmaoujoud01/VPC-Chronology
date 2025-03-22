@@ -16,7 +16,7 @@ Install required dependencies:
 
 ## AWS Credentials
 
-TimelessVPC uses the AWS SDK for Python (boto3) and supports all standard AWS authentication methods:
+VPChron uses the AWS SDK for Python (boto3) and supports all standard AWS authentication methods:
 
 - Environment variables (AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY)
 - AWS credentials file (~/.aws/credentials)
@@ -26,7 +26,7 @@ You can also specify profiles using the `--profile` option.
 
 ## Required AWS Permissions
 
-The IAM user or role running TimelessVPC needs the following permissions:
+The IAM user or role running VPChron needs the following permissions:
 
 - EC2 read permissions (describe resources)
 - S3 read/write permissions for the backup bucket
@@ -93,11 +93,9 @@ Restore a specific VPC from a backup:
 ### Coming Soon
 
 - Incremental Backups: Only backup what's changed since last backup
-- VPC Flow Logs Support: Include VPC Flow Logs in backups
 - Resource Dependency Tracking: Support for Lambda functions, EC2 instances, and other VPC-dependent resources
 - Elastic IP Preservation: Maintain IP address reservations during restoration
 - Cross-Account Restoration: Restore configurations across AWS accounts
-- Backup Scheduling: Automated regular backups
 
 ### Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
