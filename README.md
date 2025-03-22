@@ -8,9 +8,7 @@ VPChron is a powerful utility for backing up and restoring AWS VPC configuration
 
 ## Installation
 
-1. Save the script as `vpchron.py`:
-
-2. Install required dependencies:
+Install required dependencies:
    ```
    pip install boto3 pyyaml
    ```
