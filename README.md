@@ -87,7 +87,7 @@ Restore a specific backup by timestamp:
 Restore a specific VPC from a backup:
 
 ```
-./vpchron.py restore --bucket your-vpc-backup-bucket --vpc-id vpc-0abc123def456789
+./vpchron.py restore --bucket your-vpc-backup-bucket --vpc-id your-vpc-id
 ```
 
 ### Coming Soon
